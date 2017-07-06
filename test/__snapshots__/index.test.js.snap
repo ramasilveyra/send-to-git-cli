@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`while using send-static-cli should correctly handle required options 1`] = `
+Array [
+  "./some-folder",
+  "./public_html",
+  "git@github.com:ramasilveyra/send-to-git-cli.git",
+  Object {
+    "branch": "master",
+    "commitMessage": "Release",
+  },
+]
+`;
+
+exports[`while using send-static-cli should log version with "-v" or "--version" 1`] = `
+Array [
+  "1.0.0",
+]
+`;
+
+exports[`while using send-static-cli should log version with "-v" or "--version" 2`] = `
+Array [
+  "1.0.0",
+]
+`;
